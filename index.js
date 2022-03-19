@@ -2,22 +2,20 @@ const chalk = require("chalk");
 const log = console.log;
 
 // Basic Colors
-log(chalk.red("Hey, this is dcode!"));
-log(chalk.magneta("I am magenta"));
-log(chalk.yellow("Banana."));
+log(chalk.red("Hi! How are you?!"));
+log(chalk.yellow("Good."));
 
 // Background Colors
-log(chalk.bgRed("Yes i have a red background!"));
-log(chalk.ngGreen("Forest"));
+log(chalk.bgRed("What's the matter?"));
 
 // Styling & decoration
-log(chalk.bold("I am bold."));
-log(chalk.underline("Look at me"));
+log(chalk.bold("Nothing."));
+log(chalk.underline("Tell Me!"));
 
 // Chaining
-log(chalk.yellow.bgRed.underline("Warning!!!"));
-log(chalk.green.bgWhite.bold("What is happening?"));
+log(chalk.yellow.bgRed.underline("Not sure you can handle it."));
+log(chalk.green.bgWhite.bold("Try Me."));
 
 // Hex & RGB
-log(chalk.hex("#009879").bold("dcode green!"));
-log(chalk.rgb(20, 200, 50).bold("I wonder what this will be?"));
+log(chalk.hex("#009879").bold("Ok!"));
+log(chalk.rgb(20, 200, 50).bold("My favorite Color is Green!"));
