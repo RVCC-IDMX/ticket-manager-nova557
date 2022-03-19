@@ -17,5 +17,5 @@ log(chalk.yellow.bgRed.underline("Not sure you can handle it."));
 log(chalk.green.bgWhite.bold("Try Me."));
 
 // Hex & RGB
-log(chalk.hex("#009879").bold("Ok!"));
-log(chalk.rgb(20, 200, 50).bold("My favorite Color is Green!"));
+log(chalk.hex("#009879").bold("Ok! My favorite color is Green!"));
+log(chalk.rgb(20, 200, 50).bold("My favorite is also Green!!"));
